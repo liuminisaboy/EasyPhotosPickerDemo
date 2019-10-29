@@ -155,14 +155,14 @@
 		20E4A1612368355500E265F9 /* EasyPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				20E4A1622368355500E265F9 /* EasyAlbumsView.m */,
-				20E4A1632368355500E265F9 /* EasyFrame.h */,
 				20E4A1642368355500E265F9 /* EasyPhotoPickerController.h */,
-				20E4A1652368355500E265F9 /* EasyPhotoManager.h */,
-				20E4A1662368355500E265F9 /* EasyAlbumsView.h */,
-				20E4A1672368355500E265F9 /* EasyFrame.m */,
 				20E4A1682368355500E265F9 /* EasyPhotoPickerController.m */,
+				20E4A1662368355500E265F9 /* EasyAlbumsView.h */,
+				20E4A1622368355500E265F9 /* EasyAlbumsView.m */,
+				20E4A1652368355500E265F9 /* EasyPhotoManager.h */,
 				20E4A1692368355500E265F9 /* EasyPhotoManager.m */,
+				20E4A1632368355500E265F9 /* EasyFrame.h */,
+				20E4A1672368355500E265F9 /* EasyFrame.m */,
 			);
 			path = EasyPhotoPicker;
 			sourceTree = "<group>";
