@@ -16,10 +16,10 @@
 		20DB7310235D4F410006769F /* EasyPhotosPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB730F235D4F410006769F /* EasyPhotosPickerDemoTests.m */; };
 		20DB731B235D4F410006769F /* EasyPhotosPickerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB731A235D4F410006769F /* EasyPhotosPickerDemoUITests.m */; };
 		20E4A14F235E92EF00E265F9 /* PhotoPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A14E235E92EF00E265F9 /* PhotoPreview.m */; };
-		20E4A155235EEFFC00E265F9 /* EasyPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A154235EEFFC00E265F9 /* EasyPhotoPickerController.m */; };
-		20E4A158235EFECE00E265F9 /* EasyAlbumsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A157235EFECE00E265F9 /* EasyAlbumsView.m */; };
-		20E4A15B235F007C00E265F9 /* EasyPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A15A235F007C00E265F9 /* EasyPhotoManager.m */; };
-		20E4A15E2362888100E265F9 /* EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A15D2362888000E265F9 /* EasyFrame.m */; };
+		20E4A16A2368355500E265F9 /* EasyAlbumsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A1622368355500E265F9 /* EasyAlbumsView.m */; };
+		20E4A16B2368355500E265F9 /* EasyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A1672368355500E265F9 /* EasyFrame.m */; };
+		20E4A16C2368355500E265F9 /* EasyPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A1682368355500E265F9 /* EasyPhotoPickerController.m */; };
+		20E4A16D2368355500E265F9 /* EasyPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E4A1692368355500E265F9 /* EasyPhotoManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,16 +58,16 @@
 		20DB731C235D4F410006769F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E4A14D235E92EF00E265F9 /* PhotoPreview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoPreview.h; sourceTree = "<group>"; };
 		20E4A14E235E92EF00E265F9 /* PhotoPreview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoPreview.m; sourceTree = "<group>"; };
-		20E4A153235EEFFC00E265F9 /* EasyPhotoPickerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyPhotoPickerController.h; sourceTree = "<group>"; };
-		20E4A154235EEFFC00E265F9 /* EasyPhotoPickerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPhotoPickerController.m; sourceTree = "<group>"; };
-		20E4A156235EFECE00E265F9 /* EasyAlbumsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyAlbumsView.h; sourceTree = "<group>"; };
-		20E4A157235EFECE00E265F9 /* EasyAlbumsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAlbumsView.m; sourceTree = "<group>"; };
-		20E4A159235F007C00E265F9 /* EasyPhotoManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyPhotoManager.h; sourceTree = "<group>"; };
-		20E4A15A235F007C00E265F9 /* EasyPhotoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPhotoManager.m; sourceTree = "<group>"; };
-		20E4A15C2362888000E265F9 /* EasyFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyFrame.h; sourceTree = "<group>"; };
-		20E4A15D2362888000E265F9 /* EasyFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyFrame.m; sourceTree = "<group>"; };
 		20E4A15F2367EC1F00E265F9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		20E4A1602367EC2100E265F9 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		20E4A1622368355500E265F9 /* EasyAlbumsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyAlbumsView.m; sourceTree = "<group>"; };
+		20E4A1632368355500E265F9 /* EasyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyFrame.h; sourceTree = "<group>"; };
+		20E4A1642368355500E265F9 /* EasyPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyPhotoPickerController.h; sourceTree = "<group>"; };
+		20E4A1652368355500E265F9 /* EasyPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyPhotoManager.h; sourceTree = "<group>"; };
+		20E4A1662368355500E265F9 /* EasyAlbumsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyAlbumsView.h; sourceTree = "<group>"; };
+		20E4A1672368355500E265F9 /* EasyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyFrame.m; sourceTree = "<group>"; };
+		20E4A1682368355500E265F9 /* EasyPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyPhotoPickerController.m; sourceTree = "<group>"; };
+		20E4A1692368355500E265F9 /* EasyPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyPhotoManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,14 +124,7 @@
 				20DB72FA235D4F3B0006769F /* ViewController.m */,
 				20E4A14D235E92EF00E265F9 /* PhotoPreview.h */,
 				20E4A14E235E92EF00E265F9 /* PhotoPreview.m */,
-				20E4A153235EEFFC00E265F9 /* EasyPhotoPickerController.h */,
-				20E4A154235EEFFC00E265F9 /* EasyPhotoPickerController.m */,
-				20E4A156235EFECE00E265F9 /* EasyAlbumsView.h */,
-				20E4A157235EFECE00E265F9 /* EasyAlbumsView.m */,
-				20E4A159235F007C00E265F9 /* EasyPhotoManager.h */,
-				20E4A15A235F007C00E265F9 /* EasyPhotoManager.m */,
-				20E4A15C2362888000E265F9 /* EasyFrame.h */,
-				20E4A15D2362888000E265F9 /* EasyFrame.m */,
+				20E4A1612368355500E265F9 /* EasyPhotoPicker */,
 				20DB72FC235D4F3B0006769F /* Main.storyboard */,
 				20DB72FF235D4F410006769F /* Assets.xcassets */,
 				20DB7301235D4F410006769F /* LaunchScreen.storyboard */,
@@ -157,6 +150,21 @@
 				20DB731C235D4F410006769F /* Info.plist */,
 			);
 			path = EasyPhotosPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		20E4A1612368355500E265F9 /* EasyPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				20E4A1622368355500E265F9 /* EasyAlbumsView.m */,
+				20E4A1632368355500E265F9 /* EasyFrame.h */,
+				20E4A1642368355500E265F9 /* EasyPhotoPickerController.h */,
+				20E4A1652368355500E265F9 /* EasyPhotoManager.h */,
+				20E4A1662368355500E265F9 /* EasyAlbumsView.h */,
+				20E4A1672368355500E265F9 /* EasyFrame.m */,
+				20E4A1682368355500E265F9 /* EasyPhotoPickerController.m */,
+				20E4A1692368355500E265F9 /* EasyPhotoManager.m */,
+			);
+			path = EasyPhotoPicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,14 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20E4A155235EEFFC00E265F9 /* EasyPhotoPickerController.m in Sources */,
 				20DB72FB235D4F3B0006769F /* ViewController.m in Sources */,
-				20E4A15E2362888100E265F9 /* EasyFrame.m in Sources */,
 				20E4A14F235E92EF00E265F9 /* PhotoPreview.m in Sources */,
-				20E4A15B235F007C00E265F9 /* EasyPhotoManager.m in Sources */,
 				20DB72F5235D4F3B0006769F /* AppDelegate.m in Sources */,
+				20E4A16C2368355500E265F9 /* EasyPhotoPickerController.m in Sources */,
+				20E4A16D2368355500E265F9 /* EasyPhotoManager.m in Sources */,
+				20E4A16B2368355500E265F9 /* EasyFrame.m in Sources */,
+				20E4A16A2368355500E265F9 /* EasyAlbumsView.m in Sources */,
 				20DB7306235D4F410006769F /* main.m in Sources */,
-				20E4A158235EFECE00E265F9 /* EasyAlbumsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
