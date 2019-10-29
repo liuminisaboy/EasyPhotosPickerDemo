@@ -4,7 +4,7 @@
 iOS 9.0 以上
 支持选择单张/多张
 
-```
+```iOS
 //默认选择单张
 EasyPhotoPickerController* vc = [[EasyPhotoPickerController alloc] init];
 [vc showPhotoLibraryWithTarget:self success:^(NSArray * _Nonnull images) {
