@@ -19,3 +19,4 @@ EasyPhotoPickerController* vc = [[EasyPhotoPickerController alloc] init];
  }];
  ```
  
+ ![epp1](https://github.com/liuminisaboy/EasyPhotosPickerDemo/blob/master/epp1.png)
