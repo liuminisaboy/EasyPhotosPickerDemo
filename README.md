@@ -5,9 +5,9 @@
 PhotoKit iOS8之后
 
 ```Objective-C
-*PHFetchResult*  资源集合，类似数组
-*PHAssetCollection* 一个相簿
-*PHAsset* 代表照片库中的一个资源，可转化成 UIImage
+**PHFetchResult**  资源集合，类似数组
+**PHAssetCollection** 一个相簿
+**PHAsset** 代表照片库中的一个资源，可转化成 UIImage
 ```
 
 iOS 9.0 以上 / 单选 / 多选 / 简单 
