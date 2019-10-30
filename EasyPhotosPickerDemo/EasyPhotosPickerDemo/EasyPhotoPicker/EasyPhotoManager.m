@@ -26,7 +26,7 @@
 @implementation EasyPhotoManager
 
 
-+ (NSArray*)fetchAllAsset {
++ (NSArray*)fetchAllAlbums {
     
     NSMutableArray* all = [NSMutableArray array];
     
@@ -95,7 +95,7 @@
     PHImageRequestOptions* options = [[PHImageRequestOptions alloc] init];
     options.synchronous = NO;
     options.resizeMode = PHImageRequestOptionsResizeModeFast;
-    options.deliveryMode = PHImageRequestOptionsResizeModeFast;
+    options.deliveryMode = PHImageRequestOptionsDeliveryModeHighQualityFormat;//PHImageRequestOptionsDeliveryModeFastFormat;
     
     [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:CGSizeMake(200, 200) contentMode:PHImageContentModeAspectFill options:options  resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
         

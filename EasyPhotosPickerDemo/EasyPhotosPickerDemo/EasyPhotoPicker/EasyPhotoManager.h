@@ -24,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface EasyPhotoManager : NSObject
 
-+ (NSArray*)fetchAllAsset;  //获取所有相簿
++ (NSArray*)fetchAllAlbums;  //获取所有相簿
 
 + (AlbumsModel*)fetchDefaultPhotos; //获取默认显示的所有照片
 

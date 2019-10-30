@@ -104,7 +104,7 @@
 - (void)defaultInfo {
     
     //目录
-    self.albumsView.listInfo = [EasyPhotoManager fetchAllAsset];
+    self.albumsView.listInfo = [EasyPhotoManager fetchAllAlbums];
     
     //当前
     self.albumsModel = [EasyPhotoManager fetchDefaultPhotos];
