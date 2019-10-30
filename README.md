@@ -73,7 +73,8 @@ vc.maxCount = 9-self.photoPreview.listInfo.count+1;
     self.photoPreview.listInfo = [images mutableCopy];
 }];
  ```
-## 适配情况
-iOS 9.0 以上 / 单选 / 多选 / 简单 
 ## 效果
  ![epp1.png](https://github.com/liuminisaboy/EasyPhotosPickerDemo/blob/master/epp1.png)
+ ![epp2.png](https://github.com/liuminisaboy/EasyPhotosPickerDemo/blob/master/epp2.png)
+ ![epp3.png](https://github.com/liuminisaboy/EasyPhotosPickerDemo/blob/master/epp3.png)
+ ![epp4.png](https://github.com/liuminisaboy/EasyPhotosPickerDemo/blob/master/epp4.png)
