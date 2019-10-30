@@ -44,6 +44,19 @@ PHFetchResult<PHAssetCollection *> *userAlbums = [PHAssetCollection fetchAssetCo
 ```
 
 ## 获取资源缩略图
+```Objective-C
++ (void)requestImageForAsset:(PHAsset *)asset success:(void (^)(UIImage * image))success {
+    //配置参数
+    PHImageRequestOptions* options = [[PHImageRequestOptions alloc] init];
+    options.synchronous = NO; //非同步请求，即异步
+    options.resizeMode = PHImageRequestOptionsResizeModeFast; // 最快速的调整图像大小，有可能比给定大小略大
+    options.deliveryMode = PHImageRequestOptionsDeliveryModeFastFormat; // 最快速的得到一个图像结果，可能会牺牲图像质量。
+    
+    [[PHImageManager defaultManager] requestImageForAsset:asset targetSize:CGSizeMake(200, 200) contentMode:PHImageContentModeAspectFill options:options  resultHandler:^(UIImage * _Nullable result, NSDictionary * _Nullable info) {
+        success(result);
+    }];
+}
+```
 iOS 9.0 以上 / 单选 / 多选 / 简单 
 
 ```Objective-C
