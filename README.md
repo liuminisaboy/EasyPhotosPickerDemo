@@ -48,7 +48,7 @@ PHFetchResult<PHAssetCollection *> *userAlbums = [PHAssetCollection fetchAssetCo
 + (void)requestImageForAsset:(PHAsset *)asset success:(void (^)(UIImage * image))success {
     //配置参数
     PHImageRequestOptions* options = [[PHImageRequestOptions alloc] init];
-    options.synchronous = NO; //非同步请求，即异步
+    options.synchronous = NO; //非同步请求
     options.resizeMode = PHImageRequestOptionsResizeModeFast; // 最快速的调整图像大小，有可能比给定大小略大
     options.deliveryMode = PHImageRequestOptionsDeliveryModeFastFormat; // 最快速的得到一个图像结果，可能会牺牲图像质量。
     
@@ -57,8 +57,7 @@ PHFetchResult<PHAssetCollection *> *userAlbums = [PHAssetCollection fetchAssetCo
     }];
 }
 ```
-iOS 9.0 以上 / 单选 / 多选 / 简单 
-
+## 使用
 ```Objective-C
 //默认选择单张
 EasyPhotoPickerController* vc = [[EasyPhotoPickerController alloc] init];
@@ -66,13 +65,15 @@ EasyPhotoPickerController* vc = [[EasyPhotoPickerController alloc] init];
     [self.headerIconView setImage:images.firstObject forState:UIControlStateNormal];
 }];
  
- //多张
- EasyPhotoPickerController* vc = [[EasyPhotoPickerController alloc] init];
- vc.allowsMultipleSelection = YES;
- vc.maxCount = 9-self.photoPreview.listInfo.count+1;
- [vc showPhotoLibraryWithTarget:self success:^(NSArray * _Nonnull images) {
-     self.photoPreview.listInfo = [images mutableCopy];
- }];
+//选择多张
+EasyPhotoPickerController* vc = [[EasyPhotoPickerController alloc] init];
+vc.allowsMultipleSelection = YES;
+vc.maxCount = 9-self.photoPreview.listInfo.count+1;
+[vc showPhotoLibraryWithTarget:self success:^(NSArray * _Nonnull images) {
+    self.photoPreview.listInfo = [images mutableCopy];
+}];
  ```
- 
+## 适配情况
+iOS 9.0 以上 / 单选 / 多选 / 简单 
+## 效果
  ![epp1.png](https://github.com/liuminisaboy/EasyPhotosPickerDemo/blob/master/epp1.png)
