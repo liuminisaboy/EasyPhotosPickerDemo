@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2098EE91236FEE4F00391E36 /* EasyPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2098EE90236FEE4F00391E36 /* EasyPreviewViewController.m */; };
 		20DB72F5235D4F3B0006769F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB72F4235D4F3B0006769F /* AppDelegate.m */; };
 		20DB72FB235D4F3B0006769F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DB72FA235D4F3B0006769F /* ViewController.m */; };
 		20DB72FE235D4F3B0006769F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DB72FC235D4F3B0006769F /* Main.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2098EE8F236FEE4F00391E36 /* EasyPreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyPreviewViewController.h; sourceTree = "<group>"; };
+		2098EE90236FEE4F00391E36 /* EasyPreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPreviewViewController.m; sourceTree = "<group>"; };
 		20DB72F0235D4F3B0006769F /* EasyPhotosPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPhotosPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DB72F3235D4F3B0006769F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		20DB72F4235D4F3B0006769F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -157,6 +160,8 @@
 			children = (
 				20E4A1642368355500E265F9 /* EasyPhotoPickerController.h */,
 				20E4A1682368355500E265F9 /* EasyPhotoPickerController.m */,
+				2098EE8F236FEE4F00391E36 /* EasyPreviewViewController.h */,
+				2098EE90236FEE4F00391E36 /* EasyPreviewViewController.m */,
 				20E4A1662368355500E265F9 /* EasyAlbumsView.h */,
 				20E4A1622368355500E265F9 /* EasyAlbumsView.m */,
 				20E4A1652368355500E265F9 /* EasyPhotoManager.h */,
@@ -298,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2098EE91236FEE4F00391E36 /* EasyPreviewViewController.m in Sources */,
 				20DB72FB235D4F3B0006769F /* ViewController.m in Sources */,
 				20E4A14F235E92EF00E265F9 /* PhotoPreview.m in Sources */,
 				20DB72F5235D4F3B0006769F /* AppDelegate.m in Sources */,

@@ -293,14 +293,14 @@
     [super setSelected:selected];
     
     self.chooseIcon.selected = selected;
-
-}
-- (void)setEnabled:(BOOL)enabled {
-    if (enabled) {
-        self.photoView.alpha = 1;
-    }else {
-        self.photoView.alpha = 0.5;
+    
+    if (selected) {
+        if (@available(iOS 10.0, *)) {
+            UIImpactFeedbackGenerator *impactor = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleLight];
+            [impactor impactOccurred];
+        }
     }
+
 }
 
 - (UIImageView *)photoView {

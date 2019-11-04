@@ -32,8 +32,6 @@ typedef void (^BlockSelectedImages)(NSArray* images);
 @property (nonatomic, strong) UIImageView* photoView;
 @property (nonatomic, strong) UIButton* chooseIcon;
 
-@property (nonatomic, assign) BOOL enabled;
-
 @end
 
 NS_ASSUME_NONNULL_END

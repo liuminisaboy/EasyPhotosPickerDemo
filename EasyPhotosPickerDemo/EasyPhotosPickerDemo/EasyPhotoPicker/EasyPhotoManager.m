@@ -36,6 +36,9 @@
     // 按创建时间升序
     allPhotosOptions.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"creationDate" ascending:YES]];
     
+    //只允许选择图片
+    allPhotosOptions.predicate = [NSPredicate predicateWithFormat:@"mediaType == %ld", PHAssetMediaTypeImage];
+    
     PHFetchResult<PHAsset *> *allPhotos = [PHAsset fetchAssetsWithOptions:allPhotosOptions];
     
     AlbumsModel* allPhotosModel = [[AlbumsModel alloc] initWithTitle:@"所有照片" assets:allPhotos];
