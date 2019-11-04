@@ -278,7 +278,6 @@
         
         [self.contentView addSubview:self.photoView];
         [self.contentView addSubview:self.chooseIcon];
-        
     }
     return self;
 }
@@ -286,7 +285,7 @@
 - (void)layoutSubviews {
     [super layoutSubviews];
     _photoView.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
-    _chooseIcon.frame = CGRectMake(self.frame.size.width-20-5, 5, 20, 20);
+    _chooseIcon.frame = CGRectMake(self.frame.size.width-20-5, self.frame.size.height-20-5, 20, 20);
 }
 
 - (void)setSelected:(BOOL)selected {
